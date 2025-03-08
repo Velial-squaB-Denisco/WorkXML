@@ -1,0 +1,658 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Root" minOccurs="0" maxOccurs="1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Customers" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Customer" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CompanyName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactTitle" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Phone" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="FullAddress" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Address" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="Region" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="PostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Country" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="CustomerID" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Customer" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CompanyName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactTitle" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Phone" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Fax" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="FullAddress" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Address" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="Region" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="PostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Country" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="CustomerID" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Customer" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CompanyName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactTitle" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Phone" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Fax" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="FullAddress" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Address" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="Region" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="PostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Country" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="CustomerID" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Customer" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CompanyName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="ContactTitle" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="Phone" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="FullAddress" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Address" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="City" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="Region" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="PostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Country" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="CustomerID" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Orders" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Order" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CustomerID" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                    <xs:element name="EmployeeID" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                    <xs:element name="OrderDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="RequiredDate" minOccurs="0" maxOccurs="1" type="xs:dateTime"/>
+                    <xs:element name="ShipInfo" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ShipVia" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="Freight" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+                          <xs:element name="ShipName" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipAddress" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipCity" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipRegion" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="ShipPostalCode" minOccurs="0" maxOccurs="1" type="xs:integer"/>
+                          <xs:element name="ShipCountry" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="ShippedDate" type="xs:dateTime"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

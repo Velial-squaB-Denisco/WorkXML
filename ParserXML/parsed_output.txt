@@ -1,0 +1,683 @@
+Tag: Root
+  Tag: Customers
+    Tag: Customer
+      Attributes: {'CustomerID': 'GREAL'}
+      Tag: CompanyName
+        Text: Great Lakes Food Market
+      Tag: ContactName
+        Text: Howard Snyder
+      Tag: ContactTitle
+        Text: Marketing Manager
+      Tag: Phone
+        Text: (503) 555-7555
+      Tag: FullAddress
+        Tag: Address
+          Text: 2732 Baker Blvd.
+        Tag: City
+          Text: Eugene
+        Tag: Region
+          Text: OR
+        Tag: PostalCode
+          Text: 97403
+        Tag: Country
+          Text: USA
+    Tag: Customer
+      Attributes: {'CustomerID': 'HUNGC'}
+      Tag: CompanyName
+        Text: Hungry Coyote Import Store
+      Tag: ContactName
+        Text: Yoshi Latimer
+      Tag: ContactTitle
+        Text: Sales Representative
+      Tag: Phone
+        Text: (503) 555-6874
+      Tag: Fax
+        Text: (503) 555-2376
+      Tag: FullAddress
+        Tag: Address
+          Text: City Center Plaza 516 Main St.
+        Tag: City
+          Text: Elgin
+        Tag: Region
+          Text: OR
+        Tag: PostalCode
+          Text: 97827
+        Tag: Country
+          Text: USA
+    Tag: Customer
+      Attributes: {'CustomerID': 'LAZYK'}
+      Tag: CompanyName
+        Text: Lazy K Kountry Store
+      Tag: ContactName
+        Text: John Steel
+      Tag: ContactTitle
+        Text: Marketing Manager
+      Tag: Phone
+        Text: (509) 555-7969
+      Tag: Fax
+        Text: (509) 555-6221
+      Tag: FullAddress
+        Tag: Address
+          Text: 12 Orchestra Terrace
+        Tag: City
+          Text: Walla Walla
+        Tag: Region
+          Text: WA
+        Tag: PostalCode
+          Text: 99362
+        Tag: Country
+          Text: USA
+    Tag: Customer
+      Attributes: {'CustomerID': 'LETSS'}
+      Tag: CompanyName
+        Text: Let's Stop N Shop
+      Tag: ContactName
+        Text: Jaime Yorres
+      Tag: ContactTitle
+        Text: Owner
+      Tag: Phone
+        Text: (415) 555-5938
+      Tag: FullAddress
+        Tag: Address
+          Text: 87 Polk St. Suite 5
+        Tag: City
+          Text: San Francisco
+        Tag: Region
+          Text: CA
+        Tag: PostalCode
+          Text: 94117
+        Tag: Country
+          Text: USA
+  Tag: Orders
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 6
+      Tag: OrderDate
+        Text: 1997-05-06T00:00:00
+      Tag: RequiredDate
+        Text: 1997-05-20T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-05-09T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 3.35
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 8
+      Tag: OrderDate
+        Text: 1997-07-04T00:00:00
+      Tag: RequiredDate
+        Text: 1997-08-01T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-07-14T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 4.42
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 1
+      Tag: OrderDate
+        Text: 1997-07-31T00:00:00
+      Tag: RequiredDate
+        Text: 1997-08-28T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-08-05T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 116.53
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1997-07-31T00:00:00
+      Tag: RequiredDate
+        Text: 1997-08-28T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-08-04T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 18.53
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 6
+      Tag: OrderDate
+        Text: 1997-09-04T00:00:00
+      Tag: RequiredDate
+        Text: 1997-10-02T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-09-10T00:00:00'}
+        Tag: ShipVia
+          Text: 1
+        Tag: Freight
+          Text: 57.15
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 3
+      Tag: OrderDate
+        Text: 1997-09-25T00:00:00
+      Tag: RequiredDate
+        Text: 1997-10-23T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-09-30T00:00:00'}
+        Tag: ShipVia
+          Text: 3
+        Tag: Freight
+          Text: 76.13
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1998-01-06T00:00:00
+      Tag: RequiredDate
+        Text: 1998-02-03T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1998-02-04T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 719.78
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 3
+      Tag: OrderDate
+        Text: 1998-03-09T00:00:00
+      Tag: RequiredDate
+        Text: 1998-04-06T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1998-03-18T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 33.68
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 3
+      Tag: OrderDate
+        Text: 1998-04-07T00:00:00
+      Tag: RequiredDate
+        Text: 1998-05-05T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1998-04-15T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 25.19
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1998-04-22T00:00:00
+      Tag: RequiredDate
+        Text: 1998-05-20T00:00:00
+      Tag: ShipInfo
+        Tag: ShipVia
+          Text: 3
+        Tag: Freight
+          Text: 18.84
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: GREAL
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1998-04-30T00:00:00
+      Tag: RequiredDate
+        Text: 1998-06-11T00:00:00
+      Tag: ShipInfo
+        Tag: ShipVia
+          Text: 3
+        Tag: Freight
+          Text: 14.01
+        Tag: ShipName
+          Text: Great Lakes Food Market
+        Tag: ShipAddress
+          Text: 2732 Baker Blvd.
+        Tag: ShipCity
+          Text: Eugene
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97403
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: HUNGC
+      Tag: EmployeeID
+        Text: 3
+      Tag: OrderDate
+        Text: 1996-12-06T00:00:00
+      Tag: RequiredDate
+        Text: 1997-01-03T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1996-12-09T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 20.12
+        Tag: ShipName
+          Text: Hungry Coyote Import Store
+        Tag: ShipAddress
+          Text: City Center Plaza 516 Main St.
+        Tag: ShipCity
+          Text: Elgin
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97827
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: HUNGC
+      Tag: EmployeeID
+        Text: 1
+      Tag: OrderDate
+        Text: 1996-12-25T00:00:00
+      Tag: RequiredDate
+        Text: 1997-01-22T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-01-03T00:00:00'}
+        Tag: ShipVia
+          Text: 3
+        Tag: Freight
+          Text: 30.34
+        Tag: ShipName
+          Text: Hungry Coyote Import Store
+        Tag: ShipAddress
+          Text: City Center Plaza 516 Main St.
+        Tag: ShipCity
+          Text: Elgin
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97827
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: HUNGC
+      Tag: EmployeeID
+        Text: 3
+      Tag: OrderDate
+        Text: 1997-01-15T00:00:00
+      Tag: RequiredDate
+        Text: 1997-02-12T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-01-24T00:00:00'}
+        Tag: ShipVia
+          Text: 1
+        Tag: Freight
+          Text: 0.2
+        Tag: ShipName
+          Text: Hungry Coyote Import Store
+        Tag: ShipAddress
+          Text: City Center Plaza 516 Main St.
+        Tag: ShipCity
+          Text: Elgin
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97827
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: HUNGC
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1997-07-16T00:00:00
+      Tag: RequiredDate
+        Text: 1997-08-13T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-07-21T00:00:00'}
+        Tag: ShipVia
+          Text: 1
+        Tag: Freight
+          Text: 45.13
+        Tag: ShipName
+          Text: Hungry Coyote Import Store
+        Tag: ShipAddress
+          Text: City Center Plaza 516 Main St.
+        Tag: ShipCity
+          Text: Elgin
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97827
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: HUNGC
+      Tag: EmployeeID
+        Text: 8
+      Tag: OrderDate
+        Text: 1997-09-08T00:00:00
+      Tag: RequiredDate
+        Text: 1997-10-06T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-10-15T00:00:00'}
+        Tag: ShipVia
+          Text: 1
+        Tag: Freight
+          Text: 111.29
+        Tag: ShipName
+          Text: Hungry Coyote Import Store
+        Tag: ShipAddress
+          Text: City Center Plaza 516 Main St.
+        Tag: ShipCity
+          Text: Elgin
+        Tag: ShipRegion
+          Text: OR
+        Tag: ShipPostalCode
+          Text: 97827
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LAZYK
+      Tag: EmployeeID
+        Text: 1
+      Tag: OrderDate
+        Text: 1997-03-21T00:00:00
+      Tag: RequiredDate
+        Text: 1997-04-18T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-04-10T00:00:00'}
+        Tag: ShipVia
+          Text: 3
+        Tag: Freight
+          Text: 7.48
+        Tag: ShipName
+          Text: Lazy K Kountry Store
+        Tag: ShipAddress
+          Text: 12 Orchestra Terrace
+        Tag: ShipCity
+          Text: Walla Walla
+        Tag: ShipRegion
+          Text: WA
+        Tag: ShipPostalCode
+          Text: 99362
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LAZYK
+      Tag: EmployeeID
+        Text: 8
+      Tag: OrderDate
+        Text: 1997-05-22T00:00:00
+      Tag: RequiredDate
+        Text: 1997-06-19T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-06-26T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 11.92
+        Tag: ShipName
+          Text: Lazy K Kountry Store
+        Tag: ShipAddress
+          Text: 12 Orchestra Terrace
+        Tag: ShipCity
+          Text: Walla Walla
+        Tag: ShipRegion
+          Text: WA
+        Tag: ShipPostalCode
+          Text: 99362
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LETSS
+      Tag: EmployeeID
+        Text: 1
+      Tag: OrderDate
+        Text: 1997-06-25T00:00:00
+      Tag: RequiredDate
+        Text: 1997-07-23T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-07-04T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 13.73
+        Tag: ShipName
+          Text: Let's Stop N Shop
+        Tag: ShipAddress
+          Text: 87 Polk St. Suite 5
+        Tag: ShipCity
+          Text: San Francisco
+        Tag: ShipRegion
+          Text: CA
+        Tag: ShipPostalCode
+          Text: 94117
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LETSS
+      Tag: EmployeeID
+        Text: 8
+      Tag: OrderDate
+        Text: 1997-10-27T00:00:00
+      Tag: RequiredDate
+        Text: 1997-11-24T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-11-05T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 51.44
+        Tag: ShipName
+          Text: Let's Stop N Shop
+        Tag: ShipAddress
+          Text: 87 Polk St. Suite 5
+        Tag: ShipCity
+          Text: San Francisco
+        Tag: ShipRegion
+          Text: CA
+        Tag: ShipPostalCode
+          Text: 94117
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LETSS
+      Tag: EmployeeID
+        Text: 6
+      Tag: OrderDate
+        Text: 1997-11-10T00:00:00
+      Tag: RequiredDate
+        Text: 1997-12-08T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1997-11-21T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 45.97
+        Tag: ShipName
+          Text: Let's Stop N Shop
+        Tag: ShipAddress
+          Text: 87 Polk St. Suite 5
+        Tag: ShipCity
+          Text: San Francisco
+        Tag: ShipRegion
+          Text: CA
+        Tag: ShipPostalCode
+          Text: 94117
+        Tag: ShipCountry
+          Text: USA
+    Tag: Order
+      Tag: CustomerID
+        Text: LETSS
+      Tag: EmployeeID
+        Text: 4
+      Tag: OrderDate
+        Text: 1998-02-12T00:00:00
+      Tag: RequiredDate
+        Text: 1998-03-12T00:00:00
+      Tag: ShipInfo
+        Attributes: {'ShippedDate': '1998-02-13T00:00:00'}
+        Tag: ShipVia
+          Text: 2
+        Tag: Freight
+          Text: 90.97
+        Tag: ShipName
+          Text: Let's Stop N Shop
+        Tag: ShipAddress
+          Text: 87 Polk St. Suite 5
+        Tag: ShipCity
+          Text: San Francisco
+        Tag: ShipRegion
+          Text: CA
+        Tag: ShipPostalCode
+          Text: 94117
+        Tag: ShipCountry
+          Text: USA
