@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 
 def parse_element(element, file, level=0):
 
-    indent = "  " * level  # Отступ для улучшения читаемости
+    indent = "  " * level
     tag = element.tag
     attrib = element.attrib
     text = element.text.strip() if element.text else ""
